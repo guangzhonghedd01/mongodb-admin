@@ -22,8 +22,14 @@ header('Pragma: no-cache');
 
 require "./vendor/autoload.php";
 
+$dotenv = new Dotenv\Dotenv(__DIR__);
+$dotenv->load();
+
+$host  = getenv('DB_HOST');
+$port  = getenv('DB_PORT');
+
 $server = array(
-  'mongodb://localhost:27017',
+  "mongodb://{$host}:{$port}",
 );
 
 $options = array(
