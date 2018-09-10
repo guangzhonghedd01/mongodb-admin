@@ -333,7 +333,7 @@ try {
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>PHP MongoDB Admin</title>
+    <title><?php echo getenv('APP_NAME','PHP MongoDB Admin'); ?></title>
     <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAA
 AAAAAAA9Umn/K0Jb/y9FXv8vRV7/L0Ve/y9FXv8vRV7/OU9m/0JWbf8vRV7/L0Ve/y9FXv8vRV7/
 L0Ve/y9FXv8vRV7/LkRe/x83Uv8fN1L/HzdS/x83Uv8fN1L/HzdS/zhOZv9GWnD/HzdS/x83Uv8f
@@ -355,7 +355,7 @@ Uv8fN1L/XXx2/2y8Zf9Qmjj/NEpg/x83Uv8fN1L/HzdS/x83Uv8fN1L/HzdS/y5EXv8fN1L/HzdS
 K0Jb/y9FXv8vRV7/L0Ve/y9FXv8vRV7/OlBl/zRJYf8vRV7/L0Ve/y9FXv8vRV7/L0Ve/y9FXv8v
 RV7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAA==" type="image/x-icon" />
-	<LINK href="mongo.css" rel="stylesheet" type="text/css">
+	<LINK href="static/mongo.css" rel="stylesheet" type="text/css">
 
   </head>
 
